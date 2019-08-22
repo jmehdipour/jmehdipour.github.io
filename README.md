@@ -1,3 +1,5 @@
-# جبار مهدی پور
+# Jabbar Mehdipour
 
-توسعه دهنده اندروید
+Android developer
+
+
