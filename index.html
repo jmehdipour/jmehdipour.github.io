@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-cSfiDrYfMj9eYCidq//oGXEkMc0vuTxHXizrMOFAaPsLt1zoCUVnSsURN+nef1lj" crossorigin="anonymous">
+
+  <!-- compiled and minified theme CSS -->
+  <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-YNPmfeOM29goUYCxqyaDVPToebWWQrHk0e3QYEs7Ovg6r5hSRKr73uQ69DkzT1LH" crossorigin="anonymous">
+
+  <!-- compiled and minified Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- compiled and minified JavaScript -->
+  <script src="https://cdn.rtlcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-B4D+9otHJ5PJZQbqWyDHJc6z6st5fX3r680CYa0Em9AUG6jqu5t473Y+1CTZQWZv" crossorigin="anonymous"></script>
+
+
+  <style>
+      @font-face {
+        font-family: bnazanin;
+        src: url(font/BNazanin.woff);
+      }
+
+      @font-face {
+        font-family: bnazanin-bold;
+        src: url(font/BNazaninBd.woff);
+      }
+
+      body {
+        direction: rtl;
+        background-color: #eee;
+        font-family: bnazanin;
+      }
+
+      .container {
+        padding-top: 1%; 
+      }
+
+      #profile{
+        background-color: cornflowerblue;
+        padding: 2%;
+        border: 5px solid white;
+        height: 250px;
+
+      }
+    
+      #profile>img {
+        width: 40%;
+        border: 5px solid cornflowerblue;
+        position: relative;
+        left: 50px;
+        
+      }
+
+      #profile-name {
+        display: inline-block;
+        color:white;
+        
+
+      }
+      
+      #profile-name>h1:nth-child(2) {
+        color: black;
+      }
+
+      #contact{
+       
+        margin-top: 80px;
+        background-color: white;
+        height: 170px;
+
+      }
+
+      img.header-background {
+        width: 240px;
+        position: absolute;
+        right: -37px;
+        top: -30px;
+      }
+
+      .header{
+        position: absolute;
+        color: white;
+        top: -40px;
+      }
+
+      div.panel{
+        padding-top: 37px;
+        padding-bottom: 20px;
+        font-size: 1.3em;
+        margin-top: 30px;
+        border: 5px solid cornflowerblue;
+        
+        
+      }
+
+
+      #job-resume .duration{
+        
+        padding-top: 20px; 
+        
+
+      }
+
+      .blue-text {
+        color: #1565C0;
+      }
+
+      .bold-bnazanin{
+        font-family: bnazanin-bold;
+      }
+
+    
+
+  </style>
+
+
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5" id="profile">
+      
+          
+      <img src="image.png" />
+
+      <div id="profile-name">
+        <h1>جبار مهدی پور</h1> 
+        <h1>توسعه دهنده اندروید</h1>
+      </div>
+    </div>
+
+    <div class="col-sm-5 col-sm-offset-1 panel" id="contact">
+      <img class="header-background" src="headerBackground.png">
+      <h2 class="header">اطلاعات تماس</h2>
+      <div class="row" >
+        <div class="col-sm-3">
+          <p>آدرس :</p>
+          <p>شماره تماس:</p>
+          <p>ایمیل:</p>
+          
+        </div>
+        <div class="col-sm-9">
+          <p>مازندران – نکا – خیابان انقلاب – کوی شهید بردبار</p>
+          <p>09396080492</p>
+          <p>mehdipour.py@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="row" id="about-me">
+      <div class="col-sm-10 col-sm-offset-1 panel">
+          <img class="header-background" src="headerBackground.png">
+          <h2 class="header">در مورد من</h2>
+
+
+          <p>
+              من شخصیتی دارم که بیشتر به این سمت تمایل داره که هم کارها رو منظم و به بهترین نحو انجام بده و هم بتونه برای آدمها مفید باشه. زمینه برنامه نویسی اندروید هم برای اینکار به نظرم خیلی مفید اومد که بتونم با ساختن اپلیکیشن تاثیر مثبتی روی آدمها داشته باشم . من در سیستم شخصیت شناسی mbti نوع شخصیت isjf رو دارم که میتونه تا حدودی توصیف گیر این انگیزه های من باشه. 
+          </p>
+      </div>
+      
+      
+  </div>
+
+  <div class="row" id="job-resume">
+      <div class="col-sm-10 col-sm-offset-1 panel">
+          <img class="header-background" src="headerBackground.png">
+          <h2 class="header">سوابق شغلی</h2>
+
+          <div class="row" style="position:relative;">
+            <div class="col-sm-2 text-center duration">
+              <p>از فروردین 98</p>
+              -
+              <p>تا به حال</p>
+            </div>
+            <div class="col-sm-10">
+              <h3 class="blue-text">سرباز مربی</h3>
+              <h4 class="bold-bnazanin">مرکز آموزش فنی و حرفه ای شهرستان نکا</h4>
+              <p>مسئول آزمون های آنلاین</p>
+            </div>
+
+          </div>
+
+          <div class="row">
+              <div class="col-sm-2 text-center duration">
+                <p>از اسفند 96</p>
+                -
+                <p>تا فروردین 98</p>
+              </div>
+              <div class="col-sm-10">
+                <h3 class="blue-text">سرباز مربی</h3>
+                <h4 class="bold-bnazanin">مرکز آموزش فنی و حرفه ای شهرستان گلوگاه</h4>
+                <p>تدریس دوره های مهارت های کامپیوتری و برنامه نویسی به کارآموزان (دوره های طراحی وب و برنامه نویسی و کار با نرم افزار ها)</p>
+              </div>
+  
+          </div>
+
+          <div class="row">
+              <div class="col-sm-2 text-center duration">
+                <p>از تیر 96</p>
+                -
+                <p>تا آذر 96</p>
+              </div>
+              <div class="col-sm-10">
+                <h3 class="blue-text">برنامه نویس وب</h3>
+                <h4 class="bold-bnazanin">کیهان رایانه ساری</h4>
+                <p>طراحی و پیاده سازی یک سیستم مدیریت محتوا (CMS)  با استفاده از فریمورک لاراول در زبان PHP برای Back end  و زبان های HTML ,CSS , Javascript و فریمورک Bootstrap برای Front end</p>
+              </div>
+  
+          </div>
+
+      </div>
+      
+      
+  </div>
+  
+</div>
+
+</body>
+</html>
