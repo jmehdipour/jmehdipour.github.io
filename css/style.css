@@ -1,0 +1,94 @@
+@font-face {
+  font-family: bnazanin;
+  src: url(font/BNazanin.woff);
+}
+
+@font-face {
+  font-family: bnazanin-bold;
+  src: url(font/BNazaninBd.woff);
+}
+
+body {
+  direction: rtl;
+  background-color: #eee;
+  font-family: bnazanin;
+}
+
+.container {
+  padding-top: 1%; 
+}
+
+#profile{
+  background-color: cornflowerblue;
+  padding: 2%;
+  border: 5px solid white;
+  height: 250px;
+
+}
+
+#profile>img {
+  width: 40%;
+  border: 5px solid cornflowerblue;
+  position: relative;
+  left: 50px;
+  
+}
+
+#profile-name {
+  display: inline-block;
+  color:white;
+  
+
+}
+
+#profile-name>h1:nth-child(2) {
+  color: black;
+}
+
+#contact{
+ 
+  margin-top: 80px;
+  background-color: white;
+  height: 170px;
+
+}
+
+img.header-background {
+  width: 240px;
+  position: absolute;
+  right: -37px;
+  top: -30px;
+}
+
+.header{
+  position: absolute;
+  color: white;
+  top: -40px;
+}
+
+div.panel{
+  padding-top: 37px;
+  padding-bottom: 20px;
+  font-size: 1.3em;
+  margin-top: 30px;
+  border: 5px solid cornflowerblue;
+  
+  
+}
+
+
+#job-resume .duration{
+  
+  padding-top: 20px; 
+  
+
+}
+
+.blue-text {
+  color: #1565C0;
+}
+
+.bold-bnazanin{
+  font-family: bnazanin-bold;
+}
+
