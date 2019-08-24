@@ -1,11 +1,11 @@
 @font-face {
   font-family: bnazanin;
-  src: url(font/BNazanin.woff);
+  src: url(../font/BNazanin.woff);
 }
 
 @font-face {
   font-family: bnazanin-bold;
-  src: url(font/BNazaninBd.woff);
+  src: url(../font/BNazaninBd.woff);
 }
 
 body {
