@@ -8,10 +8,36 @@
   src: url(../font/BNazaninBd.woff);
 }
 
+
+body:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background: url(../image/background-blur.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
 body {
   direction: rtl;
   background-color: #eee;
   font-family: bnazanin;
+
+  
+  
 }
 
 .container {
