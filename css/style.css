@@ -50,6 +50,7 @@ body {
   margin-top: 80px;
   background-color: white;
   height: 170px;
+  padding: 30px;
 
 }
 
@@ -94,4 +95,21 @@ div.panel{
 
 #qualification .padding{
   padding-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+  #profile{
+    height: 350px;
+    text-align: center;
+  }
+
+  #profile > img {
+    left: 0;
+    border-radius: 100%;
+    border-color: white;
+  }
+
+  #contact {
+    height: 250px;
+  }
 }
